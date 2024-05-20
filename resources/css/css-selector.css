@@ -1,0 +1,61 @@
+/* Universal selector */
+* {
+
+    text-align: left;
+
+    color: blue;
+
+}
+
+/* Element selector */
+p {
+    color: red;
+}
+
+/* ID selector */
+#para3 {
+    color: rgb(13, 16, 154);
+}
+
+/* Class selector */
+.center {
+    text-align: center;
+}
+
+/* CSS grouping selector */
+
+h1,
+h2,
+p {
+    text-align: center;
+    color: red;
+}
+
+/* Descendant CSS Selector */
+.paragraph-container * {
+    color: rgb(5, 5, 23);
+}
+
+.paragraph-container>.hello-class {
+    color: rgb(17, 17, 212);
+}
+
+
+/* Multiple CSS Selector */
+.outside-class, .again-class, .hola-class {
+    color: purple;
+}
+
+/* Combination CSS Selector */
+p#hola-id {
+    color: blue;
+}
+
+.hello-class.active {
+    color: red;
+}
+/* Sibling CSS Selector */
+
+#hola-id + .hello-class {
+    color: rgb(44, 44, 54);
+}
