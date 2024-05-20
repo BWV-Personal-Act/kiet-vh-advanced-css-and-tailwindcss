@@ -1,0 +1,56 @@
+/* Element Selector */
+h1 {
+    color: blue;
+    font-size: 30px;
+}
+
+/* ID Selector */
+
+#unique-paragraph{
+    color: red;
+    font-weight: bold;
+}
+
+/* Class Selector */
+
+.highlight{
+    background-color: yellow;
+    text-align: center;
+}
+
+/* Universal Selector */
+*{
+    margin: 10px;
+    padding: 5px;
+}
+
+/* Descendant Selector */
+.content p{
+    font-style: italic;
+}
+
+.main-content > p {
+    border: 1px solid black;
+}
+
+/* Multiple Selector */
+.header, .footer, .sidebar {
+    background-color: lightgray;
+}
+
+
+/* Combination Selector */
+button.active {
+    color: white;
+    background-color: darkblue;
+}
+
+/* Sibling Selector */
+#reference + .highlight {
+    border-left: 4px solid orange;
+}
+
+
+#reference ~ .highlight {
+    border-left: 4px solid orange;
+}
