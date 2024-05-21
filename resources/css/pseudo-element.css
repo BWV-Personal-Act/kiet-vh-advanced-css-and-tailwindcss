@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+p.first-line::first-line {
+    color: red;
+}
+
+p.first-line::first-letter {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+p.first-letter::first-letter {
+    font-size: 5em;
+    font-weight: bold;
+}
+
+p.before::before {
+    content: "Before";
+    color: red;
+}
+
+p.after::after {
+    content: "After";
+    color: red;
+}
+
+
+::marker {
+    color: red;
+    font-size: 23px;
+}
+
+p::selection {
+    background-color: yellow;
+}
