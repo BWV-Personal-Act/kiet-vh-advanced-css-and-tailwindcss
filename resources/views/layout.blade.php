@@ -10,11 +10,19 @@
 </head>
 
 <body>
-    <div class="wrapper">
-       <div class="item item-1"><h2>Header</h2></div>
-       <div class="item item-2"><h2>Menu Left</h2></div>
-       <div class="item item-3"><h2>Container</h2></div>
-       <div class="item item-4"><h2>Footer</h2></div>
+    <div class="grid-container">
+        <div class="header">
+            <h1>Header</h1>
+        </div>
+        <div class="sidebar">
+            <h2>Sidebar</h2>
+        </div>
+        <div class="main">
+            <h2>Main Content</h2>
+        </div>
+        <div class="footer">
+            <p>Footer</p>
+        </div>
     </div>
 </body>
 
